@@ -6,8 +6,10 @@ A Simples API with Redis cache
 
 Use for install dependencies:
 
+
 ```bash
 dotnet build
+docker container run -d -p 6379:6379 --name=redis redis
 ```
 
 ## Running - dotnet
